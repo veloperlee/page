@@ -18,7 +18,7 @@
         {
             "id": 4,
             "title": "Portfolio",
-            "cont": "<div><a href=\"https://github.com/veloperlee/leeveloper/tree/main/team-window-theme/lee/portfolio\" target=\"_blank\">포트폴리오(현재 페이지)</a></div><div><a href=\"https://veloperlee.github.io/todo/\" target=\"_blank\">투두리스트</a></div><div><a href=\"https://github.com/veloperlee/leeveloper/tree/main/team-window-theme/lee/brochure\" target=\"_blank\">민간 학교 브로슈어(git)</a></div>"
+            "cont": "<div><a href=\"https://github.com/veloperlee/page\" target=\"_blank\">포트폴리오(현재 페이지 git)</a></div><div><a href=\"todoRenewal/todo.html\" target=\"_blank\">투두리스트</a></div><div><a href=\"https://github.com/veloperlee/leeveloper/tree/main/team-window-theme/lee/brochure\" target=\"_blank\">민간 학교 브로슈어(git)</a></div>"
         },
         {
             "id": 5,
