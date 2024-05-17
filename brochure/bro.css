@@ -1,0 +1,101 @@
+   .brochure_wrap {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 10%;
+    }
+
+    .brochure_wrap .page {
+        width: calc(25% - 10px);
+        box-sizing: border-box;
+        margin-left: 10px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+
+    .brochure_wrap .image {
+        border: 1px solid #DDD;
+        border-bottom: 5px solid #666666;
+    }
+
+    .brochure_wrap .text {
+        text-align: center;
+        padding-top: 6px;
+    }
+
+    .brochure_wrap .page img {
+        width: 100%;
+    }
+
+    .brochure_view {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.8);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .brochure_view.hide {
+        display: none;
+    }
+
+
+    .brochure_view .image {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        padding: 30px;
+    }
+
+    .brochure_view .image img {
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+    .brochure_view .button {
+        flex: 0 0;
+        padding: 20px;
+        display: flex;
+        gap: 60px;
+    }
+
+    .brochure_view .button button {
+        border: 0;
+        outline: none;
+        background: none;
+        cursor: pointer;
+    }
+
+    .brochure_view .button button svg {
+        fill: white;
+        width: 36px;
+    }
+
+    .brochure_view .close {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        cursor: pointer;
+    }
+
+    .brochure_view .close svg {
+        fill: white;
+        /* fill: black; */
+        /* width: 70px;
+        height: 70px; */
+        width: 30px;
+        height: 30px;
+    }
+
+    .brochure_view .button .hide {
+        /* display: none; */
+        opacity: 0;
+        cursor: default;
+    }
