@@ -1,0 +1,47 @@
+/* layout 잡기 - 삭제예정 */
+*{
+    border: 1px solid orangered;
+}
+
+
+/* details, summary list style */
+details, ul, li{
+    list-style: none;
+}
+summary::-webkit-details-marker { /* Safari 브라우저용 사용자 정의 스타일 */
+    display: none;
+}
+summary {
+    list-style-type: none; /* 그 외의 브라우저용 사용자 정의 스타일 */
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 0; */
+    box-sizing: border-box;
+  }
+
+main{
+    display: flex;
+}
+
+div.wrap{
+    width: 80%;
+    margin: 0 auto;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+}
+
+section{
+    width: 90%;
+}
+
+.intro{
+    display: flex;
+}

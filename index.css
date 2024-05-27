@@ -67,7 +67,7 @@ a, a:visited, a:active {
 
 /***************************foote 시작r***********************/
 
-#footer{
+footer{
     background-color: darkgray;
     width: 100%;
     height: 50px;
@@ -94,7 +94,7 @@ a, a:visited, a:active {
     padding-top: 1px;
 } */
 
-#footer>.time{
+footer>.time{
     width: 120px;
     right: 0;
     position: absolute;
@@ -139,16 +139,16 @@ a, a:visited, a:active {
 }
 
 
-#footer > ul {
+footer > ul {
     display: flex;
 }
 
-#footer > ul > li { 
+footer > ul > li { 
     padding: 12px;
 }
-#footer > ul > li > img { height: 26px; } 
+footer > ul > li > img { height: 26px; } 
 
-#footer > ul > li.start { background-color: rgb(91, 90, 90); }
+footer > ul > li.start { background-color: rgb(91, 90, 90); }
 
 .startmodal{
     width: 300px;
@@ -223,12 +223,12 @@ a, a:visited, a:active {
 
 
 /* 다른곳을 눌러도 그냥 색이 들어가있음 */
-#footer > ul > li.shadow{
+footer > ul > li.shadow{
     /* box-shadow :1px 1px 3px 1px #5f6368 inset; */
     background-color: rgb(30 30 30);
 }
 
-#footer > ul > .fticon > p {
+footer > ul > .fticon > p {
     display: none;
 }
 
