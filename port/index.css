@@ -45,3 +45,15 @@ section{
 .intro{
     display: flex;
 }
+
+summary>div{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    /* background-color: bisque; */
+    transition: all 0.2s linear;
+}
+
+summary>div:hover{
+    transform: rotate( 90deg );
+}
